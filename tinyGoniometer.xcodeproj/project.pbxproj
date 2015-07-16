@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5674ADDC1B57D95C00499B8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5674ADDB1B57D95C00499B8E /* AppDelegate.swift */; };
+		5674ADDE1B57D95C00499B8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5674ADDD1B57D95C00499B8E /* ViewController.swift */; };
+		5674ADE11B57D95C00499B8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5674ADDF1B57D95C00499B8E /* Main.storyboard */; };
+		5674ADE31B57D95C00499B8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5674ADE21B57D95C00499B8E /* Images.xcassets */; };
+		5674ADE61B57D95C00499B8E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5674ADE41B57D95C00499B8E /* LaunchScreen.xib */; };
+		5674ADF21B57D95C00499B8E /* tinyGoniometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5674ADF11B57D95C00499B8E /* tinyGoniometerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5674ADEC1B57D95C00499B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5674ADCE1B57D95C00499B8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5674ADD51B57D95C00499B8E;
+			remoteInfo = tinyGoniometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5674ADD61B57D95C00499B8E /* tinyGoniometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinyGoniometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5674ADDA1B57D95C00499B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5674ADDB1B57D95C00499B8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5674ADDD1B57D95C00499B8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5674ADE01B57D95C00499B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5674ADE21B57D95C00499B8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5674ADE51B57D95C00499B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5674ADEB1B57D95C00499B8E /* tinyGoniometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tinyGoniometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5674ADF01B57D95C00499B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5674ADF11B57D95C00499B8E /* tinyGoniometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinyGoniometerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5674ADD31B57D95C00499B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5674ADE81B57D95C00499B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5674ADCD1B57D95C00499B8E = {
+			isa = PBXGroup;
+			children = (
+				5674ADD81B57D95C00499B8E /* tinyGoniometer */,
+				5674ADEE1B57D95C00499B8E /* tinyGoniometerTests */,
+				5674ADD71B57D95C00499B8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5674ADD71B57D95C00499B8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5674ADD61B57D95C00499B8E /* tinyGoniometer.app */,
+				5674ADEB1B57D95C00499B8E /* tinyGoniometerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5674ADD81B57D95C00499B8E /* tinyGoniometer */ = {
+			isa = PBXGroup;
+			children = (
+				5674ADDB1B57D95C00499B8E /* AppDelegate.swift */,
+				5674ADDD1B57D95C00499B8E /* ViewController.swift */,
+				5674ADDF1B57D95C00499B8E /* Main.storyboard */,
+				5674ADE21B57D95C00499B8E /* Images.xcassets */,
+				5674ADE41B57D95C00499B8E /* LaunchScreen.xib */,
+				5674ADD91B57D95C00499B8E /* Supporting Files */,
+			);
+			path = tinyGoniometer;
+			sourceTree = "<group>";
+		};
+		5674ADD91B57D95C00499B8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5674ADDA1B57D95C00499B8E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5674ADEE1B57D95C00499B8E /* tinyGoniometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5674ADF11B57D95C00499B8E /* tinyGoniometerTests.swift */,
+				5674ADEF1B57D95C00499B8E /* Supporting Files */,
+			);
+			path = tinyGoniometerTests;
+			sourceTree = "<group>";
+		};
+		5674ADEF1B57D95C00499B8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5674ADF01B57D95C00499B8E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5674ADD51B57D95C00499B8E /* tinyGoniometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5674ADF51B57D95C00499B8E /* Build configuration list for PBXNativeTarget "tinyGoniometer" */;
+			buildPhases = (
+				5674ADD21B57D95C00499B8E /* Sources */,
+				5674ADD31B57D95C00499B8E /* Frameworks */,
+				5674ADD41B57D95C00499B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tinyGoniometer;
+			productName = tinyGoniometer;
+			productReference = 5674ADD61B57D95C00499B8E /* tinyGoniometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5674ADEA1B57D95C00499B8E /* tinyGoniometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5674ADF81B57D95C00499B8E /* Build configuration list for PBXNativeTarget "tinyGoniometerTests" */;
+			buildPhases = (
+				5674ADE71B57D95C00499B8E /* Sources */,
+				5674ADE81B57D95C00499B8E /* Frameworks */,
+				5674ADE91B57D95C00499B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5674ADED1B57D95C00499B8E /* PBXTargetDependency */,
+			);
+			name = tinyGoniometerTests;
+			productName = tinyGoniometerTests;
+			productReference = 5674ADEB1B57D95C00499B8E /* tinyGoniometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5674ADCE1B57D95C00499B8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = gokennya;
+				TargetAttributes = {
+					5674ADD51B57D95C00499B8E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5674ADEA1B57D95C00499B8E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5674ADD51B57D95C00499B8E;
+					};
+				};
+			};
+			buildConfigurationList = 5674ADD11B57D95C00499B8E /* Build configuration list for PBXProject "tinyGoniometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5674ADCD1B57D95C00499B8E;
+			productRefGroup = 5674ADD71B57D95C00499B8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5674ADD51B57D95C00499B8E /* tinyGoniometer */,
+				5674ADEA1B57D95C00499B8E /* tinyGoniometerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5674ADD41B57D95C00499B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5674ADE11B57D95C00499B8E /* Main.storyboard in Resources */,
+				5674ADE61B57D95C00499B8E /* LaunchScreen.xib in Resources */,
+				5674ADE31B57D95C00499B8E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5674ADE91B57D95C00499B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5674ADD21B57D95C00499B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5674ADDE1B57D95C00499B8E /* ViewController.swift in Sources */,
+				5674ADDC1B57D95C00499B8E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5674ADE71B57D95C00499B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5674ADF21B57D95C00499B8E /* tinyGoniometerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5674ADED1B57D95C00499B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5674ADD51B57D95C00499B8E /* tinyGoniometer */;
+			targetProxy = 5674ADEC1B57D95C00499B8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5674ADDF1B57D95C00499B8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5674ADE01B57D95C00499B8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5674ADE41B57D95C00499B8E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5674ADE51B57D95C00499B8E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5674ADF31B57D95C00499B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5674ADF41B57D95C00499B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5674ADF61B57D95C00499B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tinyGoniometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5674ADF71B57D95C00499B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tinyGoniometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5674ADF91B57D95C00499B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tinyGoniometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tinyGoniometer.app/tinyGoniometer";
+			};
+			name = Debug;
+		};
+		5674ADFA1B57D95C00499B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tinyGoniometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tinyGoniometer.app/tinyGoniometer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5674ADD11B57D95C00499B8E /* Build configuration list for PBXProject "tinyGoniometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5674ADF31B57D95C00499B8E /* Debug */,
+				5674ADF41B57D95C00499B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5674ADF51B57D95C00499B8E /* Build configuration list for PBXNativeTarget "tinyGoniometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5674ADF61B57D95C00499B8E /* Debug */,
+				5674ADF71B57D95C00499B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5674ADF81B57D95C00499B8E /* Build configuration list for PBXNativeTarget "tinyGoniometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5674ADF91B57D95C00499B8E /* Debug */,
+				5674ADFA1B57D95C00499B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5674ADCE1B57D95C00499B8E /* Project object */;
+}
